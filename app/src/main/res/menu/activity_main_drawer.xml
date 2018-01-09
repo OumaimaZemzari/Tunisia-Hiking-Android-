@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/acceuil"
+            android:icon="@drawable/acc"
+            android:title="Acceuil" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/login"
+            android:title="Se connecter" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/sign_in"
+            android:title="S\'inscrire" />
+        <item
+            android:id="@+id/Rondo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Mes Rondonnées" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_like"
+            android:title="Favories" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/mail"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="a propos" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/mat2"
+    android:layout_gravity="center"
+    android:id="@+id/container">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/o"
+        android:orientation="vertical"
+
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp">
+
+        <TextView
+            android:id="@+id/textV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="false"
+            android:text="Connectez vous"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_outer_padding" />
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="41dp"
+            android:layout_margin="9dp"
+            android:inputType="textPersonName"
+            android:id="@+id/editText"
+            android:hint="Adresse e-mail"
+            android:drawableLeft="@drawable/mail"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:paddingLeft="6dp"
+            android:textAlignment="center"
+
+            android:drawablePadding="4dp"
+
+            android:backgroundTint="@android:color/transparent"
+            android:autoText="false"
+            android:layout_weight="0.21"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textColorHint="@color/cardview_light_background" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:inputType="textPassword"
+            android:background="#ffffff"
+            android:paddingLeft="6dp"
+            android:layout_margin="9dp"
+            android:hint="Mot de passe"
+            android:textAlignment="center"
+
+            android:drawableLeft="@drawable/password"
+            android:id="@+id/editText2"
+
+            android:backgroundTint="@android:color/transparent"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textColorHint="@color/cardview_light_background" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Se connecter "
+        android:id="@+id/button"
+
+        android:elegantTextHeight="true"
+        android:backgroundTint="@color/colorPrimary"
+        style="@style/Widget.AppCompat.Button"
+
+        android:textColor="@color/white"
+        android:layout_below="@+id/o"
+        android:layout_alignRight="@+id/o"
+        android:layout_alignEnd="@+id/o"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="54dp" />
+
+</RelativeLayout>

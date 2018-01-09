@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "961800050074",
+    "firebase_url": "https://oumaima-25255.firebaseio.com",
+    "project_id": "oumaima-25255",
+    "storage_bucket": "oumaima-25255.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961800050074:android:18d322b083bad6a7",
+        "android_client_info": {
+          "package_name": "zemzarioumaima.rondo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961800050074-ulvje2hahthtkrr2oht5ajo1lkg8b090.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zemzarioumaima.rondo",
+            "certificate_hash": "4397CFDA0BCD83B501523C8922A007D2D11E4FF5"
+          }
+        },
+        {
+          "client_id": "961800050074-dkg4j0gvia2ers3k0ogphcpadc3cjbcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4wudGAYF_g2zuax1Xc537u7izTPT2H1w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961800050074-57i1pv7i2i4fndp77f1k5mmjupr2094a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.esprit.tp2.zemzarioumaima"
+              }
+            },
+            {
+              "client_id": "961800050074-dkg4j0gvia2ers3k0ogphcpadc3cjbcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
